@@ -1,3 +1,11 @@
+#If it is the first element, it is already sorted. return 1;
+# Pick next element
+#Compare with all elements in the sorted sub-list
+#Shift all the elements in the sorted sub-list that is greater than the value to be sorted
+#Insert the value
+# Repeat until list is sorted
+
+
 def insertionSort(array):
     for i in range(1,len(array)):
         position = i
